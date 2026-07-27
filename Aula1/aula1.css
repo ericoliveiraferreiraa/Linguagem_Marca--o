@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body{
+
+    height: 100dvh;
+    width: 100dvw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.box{
+
+    height: 200px;
+    width: 300px;
+
+}
+
+.red {
+
+    background-color: red;
+
+}
+
+.blue {
+
+    background-color: blue;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+
+}
+
+.relative {
+
+    position: relative;
+    top: -250px;
+    right: -250px;
+    z-index: -1;
+
+}
+
+.absolute {
+
+    position: absolute;
+    top: 0;
+   
+
+}

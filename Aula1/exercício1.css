@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body{
+
+    height: 100dvh;
+    width: 100dvw;
+    display: flex;
+    flex-direction: column;
+    
+    
+   
+}
+
+header{
+
+    height: 100px;
+    width: 100%;
+    padding: 10px;
+    background-color: #000;
+    color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+img{
+
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+
+}
+
+.botoes {
+
+    display: flex;
+    gap: 20px;
+
+}
+
+main{
+
+    position: relative;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+
+}
+
+.container{
+
+    height: 250px;
+    width: 500px;
+    border-radius: 8%;
+    background-color: antiquewhite;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+
+}
+
+.dropheader{
+
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    top:    -10px;
+    right: -10px;
+}
+
+#msg{
+
+    position: relative;
+  
+}
+
+.drop{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    top:    -10px;
+    right: -10px;
+    z-index: 1;
+}
+
+.logowhats{
+    
+    position:absolute;
+    height: 80px;
+    width: 80px;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+
+    
+    padding: 10px;
+    background-color: #000;
+    color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}

@@ -1,0 +1,159 @@
+*{
+
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    
+}
+
+img {
+
+display: block;
+max-width: 100%;
+
+}
+
+body{
+
+    height: 100dvh;
+    width: 100dvw;
+    display: grid;
+    grid-template-columns: 80px 1fr 2fr;
+   
+
+}
+
+nav{
+
+    background-color: #F7F5F2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+section{
+
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+}
+
+.font-whatsapp{
+
+    font-family: 'Helvetica', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1CAA61;
+
+}
+
+.top-header{
+
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 18px;
+}
+
+.top-whatsapp{
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.form-nav{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+    padding: 18px 18px 25px 18px;
+}
+
+.input-style{
+
+    width: 85%;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+    background-color: #F6F5F4;
+    padding-left: 16px;
+}
+
+.buttons-form{
+
+    display: flex;
+    justify-content: flex-start;
+    gap: 8px;
+}
+
+.form-buttons{
+
+    background-color: #F6F5F4;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+.inside-whatsapp{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+
+.container-nav{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
+
+}
+
+.container-nav > img{
+
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.container-nav > img:hover{
+
+    background-color: #E4DCD3;
+    
+
+}
+
+.botton-conversation{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+section{
+
+    background-color: #FFFFFF;
+
+}
+
+main{
+
+    background-color: #E4DCD3;
+
+}

@@ -34,12 +34,13 @@ nav{
 
 }
 
-section{
+.lado-esquerdo{
 
+    background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
-    padding: 10px;
-
+    height: 100dvh;
+    
 }
 
 .font-whatsapp{
@@ -149,6 +150,7 @@ section{
 section{
 
     background-color: #FFFFFF;
+    
 
 }
 
@@ -157,3 +159,104 @@ main{
     background-color: #E4DCD3;
 
 }
+
+.lista-contatos{
+
+    
+    padding: 10;
+    overflow-y: auto;
+
+}
+
+.card-contato {
+
+    display: grid;
+    grid-template-columns: 60px 1fr 60px;
+    grid-template-rows: min-content min-content;
+    overflow: hidden;
+    column-gap: 12px;
+    padding: 5px;
+    border-radius: 20px;
+
+
+}
+
+.foto-contato {
+
+    grid-row: 1/-1;
+    border-radius: 100%;
+    place-self: center;
+
+}
+
+.nome-contato{
+
+    align-self: last baseline;
+
+}
+
+
+.msg-recebida {
+
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+}
+
+main{
+
+    background-color: #E4DCD3;
+
+}
+
+.header-main {
+
+    background-color: #FFFFFF;
+}
+
+.foto-header-container {
+
+display: flex;
+gap: 20px;
+padding: 20px;
+align-items: center;
+
+}
+
+.foto-header-container >img{
+    
+    height: 60px;
+    width: 60px;
+
+}
+
+.foto-header-container > p {
+
+    font-size: x-large;
+    font-weight: 600;
+
+
+
+}
+
+.grid-msg {
+
+    height: 100dvh;
+    display: grid;
+    grid-template-columns: repeat(24, 1fr);
+    margin-top: auto;
+
+}
+
+#input-send-msg {
+
+    background-color: white;
+    margin-top: auto;
+}
+
+.recebidas {
+
+    grid-column: 2/14;
+   
+}
+

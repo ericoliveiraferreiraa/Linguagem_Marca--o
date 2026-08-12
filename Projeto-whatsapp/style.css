@@ -206,6 +206,8 @@ main{
 
     background-color: #E4DCD3;
 
+   
+
 }
 
 .header-main {
@@ -259,45 +261,49 @@ align-items: center;
 
 .grid-msg {
 
-    /* height: 100dvh; */
+    
     display: grid;
     grid-template-columns: repeat(24, 1fr);
+    grid-template-rows: 1fr;
     margin-top: auto;
+    gap: 6px;
+    padding: 16px;
     background-color: #E4DCD3;
-
+    grid-auto-rows: min-content; 
+    align-content: start; 
+    gap: 6px;
+    padding: 16px;
+    background-color: #E4DCD3;
+    flex: 1;           
+    overflow-y: auto;  
 }
 
-#input-send-msg {
-
-    background-color: white;
-    margin-top: auto;
-}
 
 .recebidas {
+    grid-column: 2 / 14;
+    justify-self: start;
+}
 
-    grid-column: 2/14;
-   
+.enviadas {
+    grid-column: 12 / 24;
+    justify-self: end;
 }
 
 .aba-enviar {
 
-    display: flex;
-    justify-content: space-between;
+    width: 100%;
+   
 
 }
 
-.aba-enviar > img {
-
-    width: 40px;
-    height: 40px;
-
-}
 
 .aba-enviar >input {
 
-    width: 950px;
+    width: 80%;
+    height: 40px;
     border: none;
-    border-radius: 5%;
+    border-radius: 25px;
+    padding: 20px;
 
 }
 

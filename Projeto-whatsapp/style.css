@@ -178,6 +178,7 @@ main{
     border-radius: 20px;
 
 
+
 }
 
 .foto-contato {
@@ -278,15 +279,55 @@ align-items: center;
     overflow-y: auto;  
 }
 
+article{
+
+    gap: 10px;
+
+}
+
+
+
 
 .recebidas {
     grid-column: 2 / 14;
     justify-self: start;
+    background-color: #FFFFFF;
+    position: relative;
+    width: fit-content;
+    max-width: 70%;
+    padding: 8px 10px;
+    padding-right: 50px;
+    border-radius: 8px;
+   
+    
 }
 
 .enviadas {
     grid-column: 12 / 24;
     justify-self: end;
+    background-color: #D8F8D2;
+    position: relative;
+    width: fit-content;
+    max-width: 70%;
+    padding: 8px 10px;
+    padding-right: 50px;
+    border-radius: 8px;
+
+    
+    
+}
+
+article p {
+    margin: 0;
+}
+
+article span {
+    position: absolute;
+
+    right: 8px;
+    bottom: 5px;
+
+    font-size: 11px;
 }
 
 .aba-enviar {

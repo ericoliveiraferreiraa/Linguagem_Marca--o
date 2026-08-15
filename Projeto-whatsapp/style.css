@@ -36,10 +36,99 @@ nav{
 .lado-esquerdo{
 
     background-color: #FFFFFF;
+    display: none;
+    flex-direction: column;
+    height: 100dvh;
+    
+}
+
+#sessão-contato {
+
+    background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
     height: 100dvh;
     
+
+}
+
+.cabecalho-contato{
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 250px;
+    padding: 30px;
+
+}   
+
+.cabecalho-contato h1{
+
+    margin: 0;
+
+}
+
+.cabecalho-contato > img {
+
+    position: absolute;
+    left: 35%;
+    top: 35%;
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+
+}
+
+.dados-contatos{
+
+    display: flex;
+    flex-direction: column;
+    height: 520px;
+    padding: 20px;
+    gap: 30px;
+
+}
+
+.dados-contatos > h1,h2,h3{
+
+    font-family: 'Helvetica', sans-serif;
+    font-weight: normal;
+
+}
+
+.troca-de-usuario{
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.perfis-contato {
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 80px;
+    flex-grow: 1;
+
+}
+
+.perfil{
+
+    display: flex;
+    flex-direction: column
+
+
+}
+
+.perfil > img {
+
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+
 }
 
 .font-whatsapp{
